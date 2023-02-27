@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliver Bottomley - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <div class="info-content">
+          <h1 class="name" title="Oliver Bottomley">Oliver Bottomley</h1>
+
+          
+          <p class="title">Graphic Designer </p>
+            
+        
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="oliver@bottomleys.org" class="contact-link">oliver@bottomleys.org</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+      
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-14-02">February 14, 2003</time>
+            </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Peterborough, England, UK</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <form method="get" action="./assets/pdf/Resume.pdf">
+              <button class="form-btn" type="submit">My Full Resume</button>
+            </form>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://youtube.com" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://berry-modifications.tebex.io/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://berry-modifications.tebex.io/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link onclick="history.back()">Back</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">SASP Livery Pack</h2>
+        </header>
+
+        <section class="about-text">
+          <p><b>FiveM - This range of work is made for the GTA V Modification (FiveM).</b>
+          <p>
+
+          
+            Here is the San Andreas State Police Livery Pack I made which was inspired by the <a href="https://www.pinterest.com/pin/825988387896473904/">Montana Highway Patrol.</a>
+       
+        </p>
+
+        <p> This is only the livery design and not the vehicles, they were made by a fellow developer in the community.</p>
+
+        
+          <img src="../assets/images/works/sasp-pack.png" alt="incident" width="100%" class="center">
+          <img src="../assets/images/works/sasp-pack-2.jpg" alt="incident" width="100%" class="center">
+          <img src="../assets/images/works/sasp-pack-3.jpg" alt="incident" width="100%" class="center">
+
+          <p> </p>
+
+         
+
+          
+
+        </section>
+
+      </article>
+
+    </div>
+
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
